@@ -1,1 +1,4 @@
 en:
+  users:
+    new:
+      user_new: "Users#new"
