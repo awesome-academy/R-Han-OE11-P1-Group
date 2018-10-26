@@ -239,7 +239,6 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-<<<<<<< HEAD
   config
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
