@@ -4,3 +4,6 @@ models:
   maximum_age: 2
   maximum_email: 255
   modify_email: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+footer:
+  w3layout: "http://w3layouts.com/"

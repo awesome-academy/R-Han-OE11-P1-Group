@@ -1,0 +1,122 @@
+<div class="banner">
+  <div class="img-slider">
+    <div  id="top" class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <%= image_tag "slide1.jpg" %>
+          <div class="slider-caption">
+            <div class="slider-caption-inner">
+             <h1><%= t ".music" %><span><%= t ".z" %></span></h1>
+             <p><%= t ".life_is" %></p>
+             <a class="caption-btn" href="#"><%= t ".signup" %></a>
+           </div>
+         </div>
+       </li>
+       <li>
+        <%= image_tag "slide3.jpg" %>
+        <div class="slider-caption">
+         <div class="slider-caption-inner">
+           <h1><%= t ".music" %><span><%= t ".z" %></span></h1>
+           <p><%= t ".take_my_hand" %></p>
+           <a class="caption-btn" href="#"><%= t ".signup" %></a>
+         </div>
+       </div>
+     </li>
+     <li>
+      <%= image_tag "slide1.jpg" %>
+      <div class="slider-caption">
+       <div class="slider-caption-inner">
+         <h1><%= t ".music" %><span><%= t ".z" %></span></h1>
+         <p><%= t ".make_music" %></p>
+         <a class="caption-btn" href="#"><%= t ".signup" %></a>
+       </div>
+     </div>
+   </li>
+ </ul>
+</div>
+<div class="clearfix"> </div>
+</div>
+</div>
+<div class="categories">
+  <div class="container">
+    <div class="categories-left">
+      <ul class="options">
+        <li><%= link_to t(".us_uk"),"#" %></li>
+        <li><%= link_to t(".vpop"),"#" %></li>
+        <li><%= link_to t(".kpop"),"#" %></li>
+        <li><%= link_to t(".rock"),"#" %></li>
+        <li><%= link_to t(".under"),"#" %></li>
+      </ul>
+      <select class="s-option">
+        <option><%= t ".select_cate" %></option>
+        <option><%= t ".advanture" %></option>
+        <option><%= t ".advanture" %></option>
+      </select>
+    </div>
+    <div class="categories-right">
+      <form>
+        <input type="text" placeholder="Search here" required>
+        <input type="submit" value="search" />
+      </form>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<div class="content">
+  <div class="container">
+    <div class="col-md-8 content-left">
+      <div class="artical">
+        <div class="col-md-4 artical-left">
+          <a href="#"><%= image_tag "post1.jpg" %></a>
+        </div>
+        <div class="col-md-8 artical-right">
+          <div class="artical-head">
+            <h2><a href="#"><%= t ".name_artist" %></a></h2>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="artical-info">
+            <p><strong><%= t ".info" %> </strong></p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="artical">
+        <div class="col-md-4 artical-left">
+          <a href="#"><%= image_tag "post1.jpg" %></a>
+        </div>
+        <div class="col-md-8 artical-right">
+          <div class="artical-head">
+            <h2><a href="#"><%= t ".name_artist" %></a></h2>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="artical-info">
+            <p><strong><%= t ".info" %> </strong></p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="col-md-4 content-right">
+      <div class="recent-add">
+        <div class="sreen-gallery-cursual">
+          <div id="owl-demo" class="owl-carousel text-center">
+            <div class="item">
+              <%= image_tag "post3.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "post5.jpg" %>
+            </div>
+            <div class="item">
+              <%= image_tag "post6.jpg" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+      <%= render "popular_album" %>
+    </div>
+  </div>
+</div>

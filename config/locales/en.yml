@@ -2,3 +2,46 @@ en:
   users:
     new:
       user_new: "Users#new"
+
+  layouts:
+    footer:
+      about_music: "About musicz"
+      who_are_u: "Who are you? Do you wanna change yourself, yourlife, even global. Follow us."
+      if_cant: "If can't take your love, Love what you have. https://nep.com.vn/neu-khong-co-duoc-cai-minh-yeu-thi-hay-yeu-lay-cai-minh-co/"
+      from_blog: "From the Blog"
+      date: "Nov 01,2018"
+      cham: "..."
+      comeback: "Comeback"
+      design_by: "Design by"
+      two_dev: "and Develop by Nguyen Dang Van & Le Thanh Tuan"
+      w3: "Welayouts"
+    header:
+      home: "Home"
+      album: "Album"
+      login: "Login"
+
+  static_pages:
+    popular_album:
+      new_album: "New Album"
+      popular_albums: "Popular albums"
+      release_date: "Release Date:"
+      country: "Country:"
+      casting: "casting:"
+      date: "Nov 02, 2018,"
+      uk: "UK"
+    home:
+      music: "music"
+      z: "Z"
+      life_is: "Life is Beautiful. "
+      take_my_hand: "Take my hand. "
+      make_music: "Music make your life is more greater. "
+      signup: "Sign up"
+      us_uk: "US-UK"
+      vpop: "V-Pop"
+      kpop: "K-Pop"
+      rock: "Rock"
+      under: "Underground"
+      select_cate: "select categories"
+      advanture: "Adventure"
+      name_artist: "Name Artist"
+      info: "Info:"
