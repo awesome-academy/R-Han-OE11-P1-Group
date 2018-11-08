@@ -2,6 +2,9 @@ en:
   users:
     new:
       user_new: "Users#new"
+    omniauth_callbacks:
+      error: "Error!"
+      login_succes: "Login successful"
 
   layouts:
     footer:
@@ -45,3 +48,37 @@ en:
       advanture: "Adventure"
       name_artist: "Name Artist"
       info: "Info:"
+
+  devise:
+    confirmations:
+      resend_confirm: "Resend confirmation instructions"
+    sessions:
+      login: "Log in"
+      current_pass: "current-password"
+      email: "email"
+    shared:
+      login: "Log in"
+      signup: "Sign up"
+      forgot_pass: "Forgot your password?"
+      didnt_confirm: "Didn't receive confirmation instructions?"
+      didnt_unlock: "Didn't receive unlock instructions?"
+      signin_with: "Sign in with #{OmniAuth::Utils.camelize(provider)}"
+    unlocks:
+      resend: "Resend unlock instructions"
+      email: "email"
+    passwords:
+      edit:
+        new_pass: "New Password"
+        confirm: "Confirm new password"
+        change: "Change my password"
+      new:
+        send: "Send me reset password instructions"
+        email: "email"
+    registrations:
+      edit:
+        sure: "Are you sure?"
+        cancel_acc: "Cancel my account"
+        back: "Back"
+        update: "Update"
+      new:
+        signup: "Sign up"
